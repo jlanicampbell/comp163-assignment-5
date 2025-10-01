@@ -59,3 +59,5 @@ for row in range(1, 11):
     for col in range(1, 11):
         print(f"{row * col:3}", end="")
     print()
+
+# used chatgbt to help explain loop variables (row, and col)
