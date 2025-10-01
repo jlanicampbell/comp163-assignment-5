@@ -42,3 +42,20 @@ if n > 1:
 else:
     print(f"{n} is not prime")
 print()
+
+# Challenge 3: Multiplication
+print("=== Challenge 3: Multiplication Table ===")
+print("Multiplication Table:")
+
+# print column headers
+print("  ", end="")
+for col in range(1, 11):
+    print(f"{col:3}", end="")
+print()
+
+# print rows 
+for row in range(1, 11):
+    print(f"{row:3}", end="")
+    for col in range(1, 11):
+        print(f"{row * col:3}", end="")
+    print()
